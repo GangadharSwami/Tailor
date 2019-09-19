@@ -3,8 +3,10 @@
 
 	Tailor
 
-Backend		
+Backend	
+
 		Owner	
+		
 		Clients //not final
 
 		Client Orders ==> 
@@ -31,9 +33,12 @@ Backend
 
 
 Application
+
 		Login ==> for owner
+		
 		Order =>
 			Add order
+			
 			Display Orders ==>
 					Search Order
 					Edit order =>
