@@ -22,10 +22,11 @@ const styles = StyleSheet.create({
   input: {
     height:55,
     fontSize: 17,
-    borderBottomColor: 'white'
+    borderBottomColor: 'white',
+    color: 'white'
   },
   inputContainer: {
-     backgroundColor: 'white',
+     backgroundColor: 'black',
      height: 60,
      borderRadius: 5, 
      borderBottomWidth: 0,

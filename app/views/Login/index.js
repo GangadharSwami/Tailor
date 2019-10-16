@@ -21,6 +21,7 @@ export default class Login extends Component {
                 <Image source={require('../../assets/icons/user.png')} style={{ height: 25, width: 25, justifyContent: 'center'}} />
               }
               containerStyle={ styles.inputContainer}
+              inputStyle={ styles.input}
             />
             <Input
               placeholder='Password'
