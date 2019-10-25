@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
-import { Image, ImageBackground, KeyboardAvoidingView, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import { Button, Card } from 'react-native-elements';
+import { Image, ImageBackground, KeyboardAvoidingView, Text, TouchableOpacity, View } from 'react-native';
+import { Button } from 'react-native-elements';
 import styles from './style';
 import { Input } from 'react-native-elements';
 
 export default class Login extends Component {
+
+  constructor(props){
+    super(props)
+  }
+
+  login = () => {
+    this.props.navigation.navigate("Home")
+  }
+
   render() {
   
     return (   
@@ -34,6 +43,7 @@ export default class Login extends Component {
             <Button
               title="Login"
               buttonStyle={ styles.loginButton }
+              onPress={this.login}
             />
           </KeyboardAvoidingView>
           
