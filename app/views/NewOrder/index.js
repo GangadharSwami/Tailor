@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Colors from '../../helpers/colors';
 
 export default class NewOrder extends Component{
@@ -8,7 +8,7 @@ export default class NewOrder extends Component{
     tabBarLabel:'New Order',
     tabBarIcon: ({ tintColor }) => (
       <View>
-        <Icon style={[{color: tintColor}]} size={25} name={'ios-add'}/>
+        <Icon style={[{color: tintColor}]} size={25} name={'cart-plus'}/>
       </View>),
     activeColor: Colors.Blue,
     inactiveColor: Colors.InactiveBlue,
