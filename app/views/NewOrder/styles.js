@@ -11,7 +11,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     margin: 10,
     justifyContent:'space-between'
-  }
+  },
+  cardContainer: { 
+    margin: 5, 
+    padding: 5,
+    borderRadius: 5
+  },
 });
 
 export default styles;
