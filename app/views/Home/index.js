@@ -31,18 +31,7 @@ const TabNavigator = createMaterialBottomTabNavigator(
         barStyle: { backgroundColor: Colors.Orange },
       }
     },
-    NewOrder: { screen: NewOrder,
-      navigationOptions:{
-        tabBarLabel:'NewOrder',
-        tabBarIcon: ({ tintColor }) => (
-          <View>
-            <Icon style={[{color: tintColor}]} size={25} name={'ios-images'}/>
-          </View>),
-        activeColor: Colors.Blue,
-        inactiveColor: Colors.InactiveBlue,
-        barStyle: { backgroundColor: Colors.LightBlue },
-      }
-    }
+    NewOrder: { screen: NewOrder }
   },
   {
     initialRouteName: "Dashboard",
