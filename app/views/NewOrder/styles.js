@@ -7,6 +7,11 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     backgroundColor: Colors.primaryBackground,
   },
+  clientNameContainer: {
+    flexDirection: 'row',
+    margin: 10,
+    justifyContent:'space-between'
+  }
 });
 
 export default styles;
