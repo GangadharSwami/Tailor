@@ -5,16 +5,16 @@ import Colors from '../../helpers/colors';
 
 export default class NewOrder extends Component{
   static navigationOptions = {
-    tabBarLabel:'NewOrder',
+    tabBarLabel:'New Order',
     tabBarIcon: ({ tintColor }) => (
       <View>
-        <Icon style={[{color: tintColor}]} size={25} name={'ios-images'}/>
+        <Icon style={[{color: tintColor}]} size={25} name={'ios-add'}/>
       </View>),
     activeColor: Colors.Blue,
     inactiveColor: Colors.InactiveBlue,
     barStyle: { backgroundColor: Colors.LightBlue },
   }
-  
+
   render() {
     return(
       <View style={{ flex: 1, justifyContent: 'center' ,alignItems: 'center', }}> 
