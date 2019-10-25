@@ -15,14 +15,18 @@ Backend
 			client name, 
 			Phone number,
 			description, 
-			items, 
-			items price, 
-			total price, 
 			when to deliver => date
 			total amount
 			share receipt
 			status => pending, in progress, completed, delivered
  			amount paid
+			
+		order_items =>
+			order_id
+			item
+			item_price
+			item_description
+			item_photo
 		
 		Designs  ==> 
 			Design group ==>
