@@ -47,8 +47,8 @@ const TabNavigator = createMaterialBottomTabNavigator(
   {
     initialRouteName: "Dashboard",
     activeColor: Colors.White,
-    inactiveColor: Colors.Green,
-    barStyle: { backgroundColor: Colors.InactiveGreen },
+    inactiveColor: Colors.InactiveGreen,
+    barStyle: { backgroundColor: Colors.Green },
   },
 );
 

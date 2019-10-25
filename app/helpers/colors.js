@@ -1,6 +1,6 @@
 export default {
-  Green: '#226557',
-  InactiveGreen: '#3BAD87',
+  Green: '#3BAD87',
+  InactiveGreen: '#226557',
   Balck: '',
   White: '#ffffff',
   Orange: '#f69b31',
