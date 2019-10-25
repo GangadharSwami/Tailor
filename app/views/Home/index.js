@@ -19,18 +19,7 @@ const TabNavigator = createMaterialBottomTabNavigator(
           </View>),
       }  
     },  
-    PendingOrders: { screen: PendingOrders,
-      navigationOptions:{
-        tabBarLabel:'Pending Order',
-        tabBarIcon: ({ tintColor }) => (
-          <View>
-            <Icon style={[{color: tintColor}]} size={25} name={'ios-person'}/>
-          </View>),
-        activeColor: Colors.Red,
-        inactiveColor: Colors.InactiveRed,
-        barStyle: { backgroundColor: Colors.Orange },
-      }
-    },
+    PendingOrders: { screen: PendingOrders },
     NewOrder: { screen: NewOrder }
   },
   {
