@@ -1,4 +1,5 @@
 export default {
+  primaryBackground: '#ffffff',
   Green: '#3BAD87',
   InactiveGreen: '#226557',
   Balck: '',
